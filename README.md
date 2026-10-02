@@ -4,6 +4,14 @@
 
 A complete, rule-based WhatsApp Cloud API backend for a dental clinic portfolio demo. It receives Meta webhooks, remembers each customer's state, captures appointment requests, stores message history, supports human handoff, and includes a credential-free local demo API. It never presents a request as a confirmed appointment.
 
+## Live demo
+
+- API: https://whatsapp-dental-automation-yogita.onrender.com
+- Swagger: https://whatsapp-dental-automation-yogita.onrender.com/docs
+- Health: https://whatsapp-dental-automation-yogita.onrender.com/health
+
+The free service can take about a minute to wake after a period of inactivity.
+
 ## Architecture
 
 ```text
