@@ -1,5 +1,7 @@
 # WhatsApp Dental Automation
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/yogita-06/whatsapp-automation-)
+
 A complete, rule-based WhatsApp Cloud API backend for a dental clinic portfolio demo. It receives Meta webhooks, remembers each customer's state, captures appointment requests, stores message history, supports human handoff, and includes a credential-free local demo API. It never presents a request as a confirmed appointment.
 
 ## Architecture
