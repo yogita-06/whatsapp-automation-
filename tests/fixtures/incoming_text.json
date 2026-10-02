@@ -1,0 +1,2 @@
+{"object":"whatsapp_business_account","entry":[{"id":"1","changes":[{"field":"messages","value":{"messaging_product":"whatsapp","messages":[{"from":"919999999999","id":"wamid.TEST123","timestamp":"1710000000","type":"text","text":{"body":"Hi"}}]}}]}]}
+

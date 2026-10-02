@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: whatsapp-dental-automation
+    runtime: python
+    plan: free
+    autoDeployTrigger: commit
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: ENVIRONMENT
+        value: development
+      - key: DEBUG
+        value: "false"
+      - key: DEMO_MODE
+        value: "true"
+      - key: REQUIRE_WEBHOOK_SIGNATURE
+        value: "false"
+      - key: ADMIN_API_KEY
+        generateValue: true
+
